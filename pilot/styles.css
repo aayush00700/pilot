@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    background-color: red;
+}
+
+canvas {
+    border: 10px solid #32CD32; /* Green border for the game area */
+    display: block;
+    margin: auto;
+}
+
+.highScore{
+    color: black;
+    background-color: gold;
+    font-family: Arial;
+    font-weight: bold;
+    width: 130px;
+    
+}
+
+.score{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: gold;
+    font-weight:bold;
+    width: 100px;
+}
+
+.moveLeft{
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(22, 220, 22);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.moveRight{
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(22, 220, 22);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.shoot{
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 370px;
+}
+
+.start{
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
